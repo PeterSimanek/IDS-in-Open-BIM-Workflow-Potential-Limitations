@@ -1,0 +1,24 @@
+# Pset_WallCommon
+Pset_WallCommon	Reference	    Family
+Pset_WallCommon	Status	        Phase Created
+Pset_WallCommon	AcousticRating	Test_Text
+Pset_WallCommon	FireRating	    Test_Text
+Pset_WallCommon	Combustible	    Test_Logical
+Pset_WallCommon	SurfaceSpreadOfFlame	Test_Text
+Pset_WallCommon	ThermalTransmittance	Test_Real
+Pset_WallCommon	IsExternal	    Test_Logical
+Pset_WallCommon	LoadBearing	    Test_Logical
+Pset_WallCommon ExtendToStructure	Test_Logical
+Pset_WallCommon Compartmentation	Test_Logical
+#
+#Qto_WallBaseQuantities
+Qto_WallBaseQuantities	Length	Test_Real	
+Qto_WallBaseQuantities	Width	Test_Real
+Qto_WallBaseQuantities	Height	Test_Real
+Qto_WallBaseQuantities	GrossFootPrintArea	Test_Real
+Qto_WallBaseQuantities	NetFootPrintArea	Test_Real
+Qto_WallBaseQuantities	GrossSideArea	Test_Real
+Qto_WallBaseQuantities	NetSideArea	Test_Real
+Qto_WallBaseQuantities	GrossVolume	Test_Real
+Qto_WallBaseQuantities	NetVolume	Test_Real
+Qto_WallBaseQuantities	NetWeight	Test_Real

@@ -1,0 +1,127 @@
+#
+# User Defined PropertySet Definition File
+#
+# Format:
+#    PropertySet:	<Pset Name>	I[nstance]/T[ype]	<element list separated by ','>
+#	<Property Name 1>	<Data type>	<[opt] Revit parameter name, if different from IFC>
+#	<Property Name 2>	<Data type>	<[opt] Revit parameter name, if different from IFC>
+#	...
+#
+# Data types supported: Area, Boolean, ClassificationReference, ColorTemperature, Count, Currency, 
+#	ElectricalCurrent, ElectricalEfficacy, ElectricalVoltage, Force, Frequency, Identifier, 
+#	Illuminance, Integer, Label, Length, Logical, LuminousFlux, LuminousIntensity, 
+#	NormalisedRatio, PlaneAngle, PositiveLength, PositivePlaneAngle, PositiveRatio, Power, 
+#	Pressure, Ratio, Real, Text, ThermalTransmittance, ThermodynamicTemperature, Volume, 
+#	VolumetricFlowRate
+# 
+# Since 24.1.0, type properties are not exported in case they are not specified in the user-defined property sets file.
+#	To export type properties for the IFCElement, for example, 
+#	a user should include "IFCElementType" in the proper .txt file.
+#
+# Example property set definition for COBie:
+#
+#PropertySet:	COBie_Specification	T	IfcElementType
+#	NominalLength	Real	COBie.Type.NominalLength
+#	NominalWidth	Real	COBie.Type.NominalWidth
+#	NominalHeight	Real	COBie.Type.NominalHeight
+#	Shape		Text	COBie.Type.Shape
+#	Size		Text	COBie.Type.Size
+#	Color		Text	COBie.Type.Color
+#	Finish		Text	COBie.Type.Finish
+#	Grade		Text	COBie.Type.Grade
+#	Material	Text	COBie.Type.Material
+#	Constituents	Text	COBie.Type.Constituents
+#	Features	Text	Cobie.Type.Features
+#	AccessibilityPerformance	Text	COBie.Type.AccessibilityPerformance
+#	CodePerformance	Text	COBie.Type.CodePerformance
+#	SustainabilityPerformance	Text	COBie.Type.SustainabilityPerformance
+#
+PropertySet:	Test_Properties	I	IfcWall,IfcColumn
+	Test_Area				Area
+	Test_Boolean			Boolean
+	Test_ColorTemperature	ColorTemperature
+	Test_ClassificationReference	ClassificationReference
+	Test_Count				Count
+	Test_Currency			Currency
+	Test_ElectricalCurrent	ElectricalCurrent
+	Test_ElectricalEfficacy	ElectricalEfficacy
+	Test_EletricalVoltage	ElectricalVoltage
+	Test_Force				Force
+	Test_Frequency			Frequency
+	Test_Identifier			Identifier
+	Test_Illuminance		Illuminance
+	Test_Integer			Integer
+	Test_Label				Label
+	Test_Lenght				Length
+	Test_Logical			Logical
+	Test_LuminousFlux		LuminousFlux
+	Test_LuminousIntensity	LuminousIntensity
+	Test_NormalisedRatio	NormalisedRatio
+	Test_PlaneAngle	PlaneAngle
+	Test_PositiveLength	PositiveLength
+	Test_PositivePlaneAngle	PositivePlaneAngle
+	Test_PositiveRatio	PositiveRatio
+	Test_Power				Power
+	Test_Preassure			Pressure
+	Test_Ratio				Ratio
+	Test_Real				Real
+	Test_Text				Text
+	Test_ThermalTransmittance	ThermalTransmittance
+	Test_ThermodynamicTemperature	ThermodynamicTemperature
+	Test_Volume	Volume
+	Test_VolumetricFlowRate	VolumetricFlowRate
+PropertySet:	BIMA+_Set	I	IfcWall
+	BIMA+Height	ClassificationReference	Unconnected Height
+	BIMA+Length	Length  	Length
+	BIMA+Volume	Volume	Volume
+	BIMA+Area	Area 	Area
+	BIMA+Comment	IfcLabel	Comment
+	BIMA+Mark	IfcIdentifier 	Text
+	BIMA+Structural	Boolean	Structural
+PropertySet: Pset_WallCommon	I	IfcWall
+	AcousticRating	Text	Pset_WallCommon.AcousticRating
+	Combustible	Yes/No	Pset_WallCommon.Combustible
+	Compartmentation	Yes/No	Pset_WallCommon.Compartmentation
+	ExtendToSurface	Yes/No	Pset_WallCommon.ExtendToSurface
+	FireRating	Text	Pset_WallCommon.FireRating
+	IsExternal	Yes/No 	Pset_WallCommon.IsExternal
+	LoadBearing	Yes/No	Pset_WallCommon.LoadBearing
+	Reference	Text	Pset_WallCommon.Reference
+	Status		Text	Pset_WallCommon.Status
+	SurfaceSpreadOfFlame	Text	Pset_WallCommon.SurfaceSpreadOfFlame
+PropertySet:	Pset_ConcreteElementGeneral	I	IfcColumn
+	ConcreteCover	Length	Pset_ConcreteElementGeneral.ConcreteCover
+	ConcreteCoverAtLinks	Length	Pset_ConcreteElementGeneral.ConcreteCoverAtLinks
+	ConcreteCoverAtMainBars	Length	Pset_ConcreteElementGeneral.ConcreteCoverAtMainBars
+	ConstructionMethod	Text	Pset_ConcreteElementGeneral.ConstructionMethod
+	ConstructionToleranceClass	Text	Pset_ConcreteElementGeneral.ConstructionToleranceClass
+	ConstructionType	Text	Pset_ConcreteElementGeneral.ConstructionType
+	EnvironmentalClass	Text	Pset_ConcreteElementGeneral.EnvironmentalClass
+	LifeCycleEnvironmentalLoad	Text	Pset_ConcreteElementGeneral.LifeCycleEnvironmentalLoad
+	ReinforcementAreaRatio	Number	Pset_ConcreteElementGeneral.ReinforcementAreaRatio
+	ReinforcementStrengthClass	Text	Pset_ConcreteElementGeneral.ReinforcementStrengthClass
+	ReinforcementVolumeRatio	Mass_Density	Pset_ConcreteElementGeneral.ReinforcementVolumeRatio
+	ServiceLife	Number	Pset_ConcreteElementGeneral.ServiceLife
+	StrengthClass	Text	Pset_ConcreteElementGeneral.StrengthClass
+	StructuralClass	Text	Pset_ConcreteElementGeneral.StructuralClas
+PropertySet:	Pset_BoilerTypeWater	I	IfcColumn
+	HeatOutput	Text	Pset_BoilerTypeWater.HeatOutput
+	NominalEfficiency	Text	Pset_BoilerTypeWater.NominalEfficiency
+PropertySet:	Pset_ColumnCommon	I	IfcColumn
+	FireRating	Text	Pset_ColumnCommon.FireRating
+	IsExternal	Yes/No	Pset_ColumnCommon.IsExternal
+	LoadBearing	Yes/No	Pset_ColumnCommon.LoadBearing
+	Reference	Text	Pset_ColumnCommon.Reference
+	Roll	Number	Pset_ColumnCommon.Roll
+	Slope	Number	Pset_ColumnCommon.Slope
+	Status	Text	Pset_ColumnCommon.Status
+	ThermalTransmittance	Number	Pset_ColumnCommon.ThermalTransmittance
+PropertySet:	CHEK_common	I	IfcBuilding
+	Height	Length	CHEK_common.Height
+	IsCornerBuilding	Logical	CHEK_common.IsCornerBuilding
+	NumberofBuildingLevels	Integer	CHEK_common.NumberofBuildingLevels
+	TypeOfConstruction	Label	CHEK_common.TypeOfConstruction
+	
+
+
+	
