@@ -1,0 +1,513 @@
+<ids:ids xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.buildingsmart.org/IDS http://standards.buildingsmart.org/IDS/1.0/ids.xsd" xmlns:ids="http://standards.buildingsmart.org/IDS">
+  <!--edited with usBIM.IDSeditor 2.2.8.0 (http://www.accasoftware.com)-->
+  <ids:info>
+    <ids:title>Material</ids:title>
+    <ids:copyright>I do not know</ids:copyright>
+    <ids:version>1.0</ids:version>
+    <ids:description>I do not care</ids:description>
+    <ids:author>pg54748@alunos.uminho.pt</ids:author>
+    <ids:date>2024-08-22</ids:date>
+    <ids:purpose>What</ids:purpose>
+    <ids:milestone>Proof of concept</ids:milestone>
+  </ids:info>
+  <ids:specifications>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Material1">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:material>
+          <ids:value>
+            <ids:simpleValue>Concrete</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Material2">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:material>
+          <ids:value>
+            <ids:simpleValue>Steel</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Material3">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:material>
+          <ids:value>
+            <ids:simpleValue>Earth</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Material4">
+      <ids:applicability minOccurs="0" maxOccurs="0">
+        <ids:material>
+          <ids:value>
+            <xs:restriction base="xs:string">
+              <xs:pattern value="[aA][sS][bB][eE][sS][tT][oO][sS]" />
+            </xs:restriction>
+          </ids:value>
+        </ids:material>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Material5">
+      <ids:applicability minOccurs="0" maxOccurs="0">
+        <ids:material>
+          <ids:value>
+            <xs:restriction base="xs:string">
+              <xs:pattern value="[Ll][Ee][Aa][Dd]" />
+            </xs:restriction>
+          </ids:value>
+        </ids:material>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Material6">
+      <ids:applicability minOccurs="0" maxOccurs="0">
+        <ids:material>
+          <ids:value>
+            <xs:restriction base="xs:string">
+              <xs:pattern value="(Formaldehyde|formaldehyde|FORMALSDEHYDE)" />
+            </xs:restriction>
+          </ids:value>
+        </ids:material>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Material7">
+      <ids:applicability minOccurs="0" maxOccurs="0">
+        <ids:material>
+          <ids:value>
+            <xs:restriction base="xs:string">
+              <xs:pattern value="[Cc][Rr][Ee][Oo][Ss][Oo][Tt][Ee]" />
+            </xs:restriction>
+          </ids:value>
+        </ids:material>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Material8">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCWINDOW</ids:simpleValue>
+          </ids:name>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:material cardinality="required">
+          <ids:value>
+            <ids:simpleValue>Wood</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+        <ids:material cardinality="prohibited">
+          <ids:value>
+            <ids:simpleValue>Vinyl</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+        <ids:material cardinality="optional">
+          <ids:value>
+            <ids:simpleValue>Fiberglass</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+        <ids:material cardinality="required">
+          <ids:value>
+            <ids:simpleValue>Gas Fill</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Material9">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCWALL</ids:simpleValue>
+          </ids:name>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:material cardinality="optional">
+          <ids:value>
+            <ids:simpleValue>Concrete</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+        <ids:material cardinality="optional">
+          <ids:value>
+            <ids:simpleValue>Steel</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+        <ids:material cardinality="optional">
+          <ids:value>
+            <ids:simpleValue>Wood</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+        <ids:material cardinality="optional">
+          <ids:value>
+            <ids:simpleValue>Stone</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+        <ids:material cardinality="optional">
+          <ids:value>
+            <ids:simpleValue>Masonry</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+        <ids:material cardinality="optional">
+          <ids:value>
+            <ids:simpleValue>Aluminum</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+        <ids:material cardinality="prohibited">
+          <ids:value>
+            <ids:simpleValue>Bamboo</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Material10">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCBOILER</ids:simpleValue>
+          </ids:name>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:material cardinality="required">
+          <ids:value>
+            <ids:simpleValue>Alloy Steel</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+        <ids:material cardinality="required">
+          <ids:value>
+            <ids:simpleValue>Carbon Steel</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+        <ids:material cardinality="required">
+          <ids:value>
+            <ids:simpleValue>Fireclay</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+        <ids:material cardinality="required">
+          <ids:value>
+            <ids:simpleValue>Refractory Brick</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+        <ids:material cardinality="required">
+          <ids:value>
+            <ids:simpleValue>Bronze</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+        <ids:material cardinality="required">
+          <ids:value>
+            <ids:simpleValue>Mineral Wool</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+        <ids:material cardinality="required">
+          <ids:value>
+            <ids:simpleValue>Calcium Silicate</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+        <ids:material cardinality="required">
+          <ids:value>
+            <ids:simpleValue>Plastics</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Material11">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCPIPEFITTING</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>JUNCTION</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:material cardinality="required">
+          <ids:value>
+            <ids:simpleValue>Brass</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+        <ids:material cardinality="optional">
+          <ids:value>
+            <ids:simpleValue>Copper</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+        <ids:material cardinality="optional">
+          <ids:value>
+            <ids:simpleValue>PVC</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+        <ids:material cardinality="optional">
+          <ids:value>
+            <ids:simpleValue>Stainless Steel</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+        <ids:material cardinality="optional">
+          <ids:value>
+            <ids:simpleValue>ABS</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+        <ids:material cardinality="required">
+          <ids:value>
+            <ids:simpleValue>Stainless Steel</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+        <ids:material cardinality="required">
+          <ids:value>
+            <ids:simpleValue>High-Density Polyethylene</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+        <ids:material cardinality="required">
+          <ids:value>
+            <ids:simpleValue>PTFE</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+        <ids:material cardinality="required">
+          <ids:value>
+            <ids:simpleValue>Cast Iron</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+        <ids:material cardinality="required">
+          <ids:value>
+            <ids:simpleValue>Fluoropolymer-lined Steel</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+        <ids:material cardinality="prohibited">
+          <ids:value>
+            <ids:simpleValue>Lead</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+        <ids:material cardinality="prohibited">
+          <ids:value>
+            <ids:simpleValue>Asbestos</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+        <ids:material cardinality="prohibited">
+          <ids:value>
+            <ids:simpleValue>Galvanized Steel</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+        <ids:material cardinality="prohibited">
+          <ids:value>
+            <ids:simpleValue>Low-Grade Plastics</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+        <ids:material cardinality="prohibited">
+          <ids:value>
+            <ids:simpleValue>Unlined Carbon Stee</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+        <ids:material cardinality="prohibited">
+          <ids:value>
+            <ids:simpleValue>Rubber Gaskets</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Material12">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCRAMP</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>STRAIGHT_RUN_RAMP</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:material cardinality="required">
+          <ids:value>
+            <ids:simpleValue>Concrete</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+        <ids:material cardinality="required">
+          <ids:value>
+            <ids:simpleValue>Asphalt</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+        <ids:material cardinality="optional">
+          <ids:value>
+            <ids:simpleValue>Rubber</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+        <ids:material cardinality="required">
+          <ids:value>
+            <ids:simpleValue>PavingStone</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+        <ids:material cardinality="required">
+          <ids:value>
+            <ids:simpleValue>Paving Stones</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Material13">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCROOF</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>DOME_ROOF</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:material cardinality="optional">
+          <ids:value>
+            <ids:simpleValue>Asphalt Shingles</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+        <ids:material cardinality="optional">
+          <ids:value>
+            <ids:simpleValue>Clay Tiles</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+        <ids:material cardinality="optional">
+          <ids:value>
+            <ids:simpleValue>Concrete Tiles</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+        <ids:material cardinality="optional">
+          <ids:value>
+            <ids:simpleValue>Metal Roofing</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+        <ids:material cardinality="optional">
+          <ids:value>
+            <ids:simpleValue>Shakes</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+        <ids:material cardinality="optional">
+          <ids:value>
+            <ids:simpleValue>Slate</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+        <ids:material cardinality="optional">
+          <ids:value>
+            <ids:simpleValue>Synthetic Roofing</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+        <ids:material cardinality="optional">
+          <ids:value>
+            <ids:simpleValue>Green Roof</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+        <ids:material cardinality="required">
+          <ids:value>
+            <ids:simpleValue>Waterproof Underlayment</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+        <ids:material cardinality="required">
+          <ids:value>
+            <ids:simpleValue>Flashing</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+        <ids:material cardinality="required">
+          <ids:value>
+            <ids:simpleValue>Insulation</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+        <ids:material cardinality="required">
+          <ids:value>
+            <ids:simpleValue>Proper Ventilation</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+        <ids:material cardinality="required">
+          <ids:value>
+            <ids:simpleValue>Gutters</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+        <ids:material cardinality="prohibited">
+          <ids:value>
+            <ids:simpleValue>Asbestos</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+        <ids:material cardinality="prohibited">
+          <ids:value>
+            <ids:simpleValue>Lead</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+        <ids:material cardinality="prohibited">
+          <ids:value>
+            <ids:simpleValue>Unsealed Plywood</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+        <ids:material cardinality="prohibited" />
+        <ids:material cardinality="prohibited">
+          <ids:value>
+            <ids:simpleValue>Low-Grade Tar Pape</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+        <ids:material cardinality="prohibited">
+          <ids:value>
+            <ids:simpleValue>Untreated Wood</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Material14">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCDOOR</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>GATE</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:material cardinality="required">
+          <ids:value>
+            <ids:simpleValue>Wood</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Material15">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCSTAIR</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>DOUBLE_RETURN_STAIR</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:material cardinality="required">
+          <ids:value>
+            <ids:simpleValue>Steel</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Material16">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCBEAM</ids:simpleValue>
+          </ids:name>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:material cardinality="required">
+          <ids:value>
+            <ids:simpleValue>Concrete C20/25</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+      </ids:requirements>
+    </ids:specification>
+  </ids:specifications>
+</ids:ids>

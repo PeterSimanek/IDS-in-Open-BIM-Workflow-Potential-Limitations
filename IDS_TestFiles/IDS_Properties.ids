@@ -1,0 +1,1017 @@
+<ids:ids xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.buildingsmart.org/IDS http://standards.buildingsmart.org/IDS/1.0/ids.xsd" xmlns:ids="http://standards.buildingsmart.org/IDS">
+  <!--edited with usBIM.IDSeditor 2.2.8.0 (http://www.accasoftware.com)-->
+  <ids:info>
+    <ids:title>New ids file</ids:title>
+  </ids:info>
+  <ids:specifications>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Properties1" description="Properties and property sets">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCWALL</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>MOVABLE</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:property cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_WallCommon</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="Reference" />
+              <xs:enumeration value="AcousticRating" />
+              <xs:enumeration value="FireRating" />
+              <xs:enumeration value="Combustible" />
+              <xs:enumeration value="ThermalTransmittance" />
+              <xs:enumeration value="IsExternal" />
+              <xs:enumeration value="ExtendToStructure" />
+              <xs:enumeration value="LoadBearing" />
+              <xs:enumeration value="Compartmentation" />
+              <xs:enumeration value="Status" />
+            </xs:restriction>
+          </ids:baseName>
+        </ids:property>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Properties2&#xA;" description="Properties and property sets">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCASSET</ids:simpleValue>
+          </ids:name>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:property cardinality="required">
+          <ids:propertySet>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="AssetID" />
+              <xs:enumeration value="OriginalValue" />
+              <xs:enumeration value="CurrentValue" />
+              <xs:enumeration value="TotalReplacementCost" />
+              <xs:enumeration value="Owner" />
+              <xs:enumeration value="User" />
+              <xs:enumeration value="ReponsoblePerson" />
+              <xs:enumeration value="IncorporationDate" />
+              <xs:enumeration value="DepreciatedValue" />
+              <xs:enumeration value="DepreciationMethod" />
+              <xs:enumeration value="ExpectedLife" />
+              <xs:enumeration value="WarrantyGuarantorParts" />
+              <xs:enumeration value="WarrantyStarDate" />
+            </xs:restriction>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>Pset_AssetCommon</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Properties3" description="Properties and property sets">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCPILE</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>JETGROUTING</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:property cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_PileCommon</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="Reference" />
+              <xs:enumeration value="PileType" />
+              <xs:enumeration value="LoadBearingCapacity" />
+              <xs:enumeration value="ConstructinMethod" />
+              <xs:enumeration value="Grade" />
+              <xs:enumeration value="Shape" />
+              <xs:enumeration value="Material" />
+              <xs:enumeration value="OverallWidth" />
+              <xs:enumeration value="OveralDepth" />
+              <xs:enumeration value="Setback" />
+              <xs:enumeration value="CutOffLevel" />
+            </xs:restriction>
+          </ids:baseName>
+        </ids:property>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Properties4" description="Properties and property sets">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCWINDOW</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>SKYLIGHT</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:property cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_WindowCommon</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="Reference" />
+              <xs:enumeration value="AcousticRating" />
+              <xs:enumeration value="FireRating" />
+              <xs:enumeration value="IsExternal" />
+              <xs:enumeration value="ThermalTransmittance" />
+              <xs:enumeration value="GlazingType" />
+              <xs:enumeration value="FrameMaterial" />
+              <xs:enumeration value="OpeningType" />
+              <xs:enumeration value="SecurityRating" />
+              <xs:enumeration value="VentilationRate" />
+              <xs:enumeration value="VisibleTransmittance" />
+              <xs:enumeration value="WindowStyle" />
+            </xs:restriction>
+          </ids:baseName>
+        </ids:property>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Properties5" description="Properties and property sets">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCSLAB</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>FLOOR</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:property cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Qto_SlabBaseQuantities</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="GrossArea" />
+              <xs:enumeration value="NetArea" />
+              <xs:enumeration value="GrossVolume" />
+              <xs:enumeration value="NetVolume" />
+              <xs:enumeration value="GrossWeight" />
+              <xs:enumeration value="NewWeight" />
+              <xs:enumeration value="Perimeter" />
+              <xs:enumeration value="Thickness" />
+              <xs:enumeration value="Width" />
+              <xs:enumeration value="Length" />
+            </xs:restriction>
+          </ids:baseName>
+        </ids:property>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Properties6" description="Properties and property sets">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCSTAIR</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>HALF_TURN_STAIR</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:property cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Qto_StairBaseQuantities</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="Length" />
+              <xs:enumeration value="Width" />
+              <xs:enumeration value="Height" />
+              <xs:enumeration value="NumberOfRisers" />
+              <xs:enumeration value="NumberOfTreads" />
+              <xs:enumeration value="RiserHeight" />
+              <xs:enumeration value="TreadLength" />
+              <xs:enumeration value="TreadWidth" />
+              <xs:enumeration value="TotalArea" />
+              <xs:enumeration value="TotalVolume" />
+              <xs:enumeration value="Pitch" />
+              <xs:enumeration value="ClearWidth" />
+              <xs:enumeration value="LandingLength" />
+              <xs:enumeration value="LandingArea" />
+            </xs:restriction>
+          </ids:baseName>
+        </ids:property>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Properties7" description="Properties and property sets">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCCOOLINGTOWER</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>NATURALDRAFT</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:property cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_CoolingTowerTypeCommon</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="Reference" />
+              <xs:enumeration value="CoolingTowerType" />
+              <xs:enumeration value="NominalCapacity" />
+              <xs:enumeration value="NominalFlowRate" />
+              <xs:enumeration value="HeatRejectionMethod" />
+              <xs:enumeration value="AirFlowRate" />
+              <xs:enumeration value="WaterSupplyTemperature" />
+              <xs:enumeration value="WaterReturnTemperature" />
+              <xs:enumeration value="FanPower" />
+              <xs:enumeration value="OperatingWeight" />
+              <xs:enumeration value="DryWeight" />
+              <xs:enumeration value="MakeupWaterFlowRate" />
+              <xs:enumeration value="SoundPowerLevel" />
+              <xs:enumeration value="BasinCapacity" />
+            </xs:restriction>
+          </ids:baseName>
+        </ids:property>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Properties8" description="Properties and property sets">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCRAMP</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>STRAIGHT_RUN_RAMP</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:property cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_RampCommon</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="Reference" />
+              <xs:enumeration value="Status" />
+              <xs:enumeration value="IsExternal" />
+              <xs:enumeration value="FireRating" />
+              <xs:enumeration value="AcousticRating" />
+              <xs:enumeration value="SurfaceSpreadOfFlame" />
+              <xs:enumeration value="Combustible" />
+              <xs:enumeration value="HandicapAccessible" />
+              <xs:enumeration value="SurfaceFinish" />
+              <xs:enumeration value="LoadBearing" />
+              <xs:enumeration value="RiserHeight" />
+              <xs:enumeration value="ThreadLEngth" />
+              <xs:enumeration value="Slope" />
+              <xs:enumeration value="Width" />
+            </xs:restriction>
+          </ids:baseName>
+        </ids:property>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Properties9" description="Properties and property sets">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:property dataType="IFCAREAMEASURE">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_SiteCommon</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>SiteArea</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Properties10" description="Properties and property sets">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:property dataType="IFCLENGTHMEASURE">
+          <ids:propertySet>
+            <ids:simpleValue>Qto_ColumnBaseQuantities</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>Length</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Properties11" description="Properties and property sets">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:property dataType="IFCVOLUMEMEASURE">
+          <ids:propertySet>
+            <ids:simpleValue>Qto_SlabCommon</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>GrosssVolume</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Properties12" description="Properties and property sets">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:property>
+          <ids:propertySet>
+            <ids:simpleValue>Qto_SlabBaseQuantities</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>NetWeight</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Properties13" description="Properties and property sets">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:property dataType="IFCLABEL">
+          <ids:propertySet>
+            <ids:simpleValue>MyPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MyLabel</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Properties14" description="Properties and property sets">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:property dataType="IFCLENGTHMEASURE">
+          <ids:propertySet>
+            <ids:simpleValue>YourPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>YourLenght</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Properties15" description="Properties and property sets">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCACTOR</ids:simpleValue>
+          </ids:name>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:property dataType="IFCMONETARYMEASURE" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>HisPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>HisMoney</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Properties16" description="Properties and property sets">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:property dataType="IFCCURRENCYENUM">
+          <ids:propertySet>
+            <ids:simpleValue>HersPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>HerCurrency</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Properties17" description="Properties and property sets">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:property dataType="IFCIDENTIFIER">
+          <ids:propertySet>
+            <ids:simpleValue>IDKset</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>IdontKnowWhatAmIDoing</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Properties18" description="Properties and property sets">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:property dataType="IFCYEARNUMBER">
+          <ids:propertySet>
+            <ids:simpleValue>WhatTheHell</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>WhatIsThat</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Properties19" description="Properties and property sets">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:property dataType="IFCLABEL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_InstallationOccurrence</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>AcceptanceDate</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_MaintenanceStrategy</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>AccidentResponse</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_DoorCommon</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>AcousticRating</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_ManufacturerOccurrence</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>AcquisitionDate</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCREAL">
+          <ids:propertySet>
+            <ids:simpleValue>Qto_DoorBaseQuantities</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>Area</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Properties20" description="Properties and property sets">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:property dataType="IFCLABEL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_InstallationOccurrence</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>AcceptanceDate</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_MaintenanceStrategy</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>AccidentResponse</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_ManufacturerOccurrence</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>AcquisitionDate</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_RailwaySignalAspect</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>AppliesToTrainCategory</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_ManufacturerTypeInformation</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>ArticleNumber</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_ManufacturerOccurrence</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>AssemblyPlace</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_ManufacturerTypeInformation</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>AssemblyPlace</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_Condition</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>AssessmentCondition</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_Condition</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>AssessmentDate</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_Condition</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>AssessmentDescription</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCREAL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_Condition</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>AssessmentFrequency</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property>
+          <ids:propertySet>
+            <ids:simpleValue>Pset_Condition</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>AssessmentMethod</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_Condition</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>AssessmentType</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_MaintenanceStrategy</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>AssetCriticality</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_MaintenanceStrategy</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>AssetFrailty</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_ConstructionOccurence</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>AssetIdentifier</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_MaintenanceStrategy</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>AssetPriority</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_Risk</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>AssociatedActivity</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_Risk</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>AssociatedLocation</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_Risk</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>AssociatedProduct</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCREAL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_EnvironmentalImpactValues</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>AtmosphericAcidification</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCREAL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_EnvironmentalImpactIndicators</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>AtmosphericAcidificationPerUnit</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_ManufacturerOccurrence</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>BarCode</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_ManufacturerOccurrence</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>BatchReference</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_SignCommon</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>Category</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCREAL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_EnvironmentalImpactValues</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>ClimateChange</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCREAL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_EnvironmentalImpactIndicators</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>ClimateChangePerUnit</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_MaintenanceTriggerCondition</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>ConditionDisposalLevel</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_MaintenanceTriggerCondition</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>ConditionMaintenanceLevel</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_MaintenanceTriggerCondition</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>ConditionReplacementLevel</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_MaintenanceTriggerCondition</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>ConditionTargetPerformance</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_ElementComponentCommon</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>CorrosionTreatment</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCREAL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_ElementKinematics</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>CyclicPath</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCREAL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_ElementKinematics</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>CyclicRange</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_ElementComponentCommon</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>DeliveryType</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL">
+          <ids:propertySet>
+            <ids:simpleValue>Attributes</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>Description</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCREAL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_MaintenanceTriggerPerformance</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>DisposalLevel</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_EnvironmentalImpactValues</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>Duration</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_MaintenanceTriggerDuration</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>DurationDisposalLevel</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_MaintenanceTriggerDuration</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>DurationMaintenanceLevel</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_MaintenanceTriggerDuration</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>DurationReplacementLevel</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_MaintenanceTriggerDuration</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>DurationTargetPerformance</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL">
+          <ids:propertySet>
+            <ids:simpleValue>Attributes</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>ElementType</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCREAL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_Tolerance</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>ElevationalFlatness</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCREAL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_EnvironmentalImpactValues</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>Eutrophication</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCREAL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_EnvironmentalImpactIndicators</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>EutrophicationPerUnit</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_Warranty</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>Exclusions</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCREAL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_EnvironmentalImpactIndicators</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>ExpectedServiceLife</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_EnvironmentalImpactIndicators</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>FunctionalUnitReference</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL">
+          <ids:propertySet>
+            <ids:simpleValue>Attributes</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>GlobalId</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_ManufacturerTypeInformation</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>GlobalTradeItemNumber</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCREAL">
+          <ids:propertySet>
+            <ids:simpleValue>Qto_BodyGeometryValidation</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>GrossSurfaceArea</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCREAL">
+          <ids:propertySet>
+            <ids:simpleValue>Qto_BodyGeometryValidation</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>GrossVolume</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCREAL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_EnvironmentalImpactValues</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>HazardousWaste</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCREAL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_EnvironmentalImpactIndicators</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>HazardousWastePerUnit</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCREAL">
+          <ids:propertySet>
+            <ids:simpleValue>Qto_SignBaseQuantities</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>Height</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCREAL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_Tolerance</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>HorizontalFlatness</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCREAL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_Tolerance</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>HorizontalOrthogonality</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCREAL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_Tolerance</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>HorizontalStraightness</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCREAL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_Tolerance</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>HorizontalTolerance</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCREAL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_Uncertainty</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>HorizontalUncertainty</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_EnvironmentalImpactIndicators</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>IndicatorsUnit</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCREAL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_EnvironmentalImpactValues</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>InertWaste</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCREAL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_EnvironmentalImpactIndicators</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>InertWastePerUnit</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_InstallationOccurrence</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>InstallationDate</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_ConstructionOccurence</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>InstallationDate</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCBOOLEAN">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_Warranty</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>IsExtendedWarranty</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCBOOLEAN">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_SignCommon</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>IsExternal</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+  </ids:specifications>
+</ids:ids>

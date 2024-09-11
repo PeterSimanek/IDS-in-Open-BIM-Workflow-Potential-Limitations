@@ -1,0 +1,519 @@
+<ids:ids xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.buildingsmart.org/IDS http://standards.buildingsmart.org/IDS/1.0/ids.xsd" xmlns:ids="http://standards.buildingsmart.org/IDS">
+  <!--edited with usBIM.IDSeditor 2.2.8.0 (http://www.accasoftware.com)-->
+  <ids:info>
+    <ids:title>New ids file</ids:title>
+  </ids:info>
+  <ids:specifications>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Classification1" description="an example of classification for entities and enumerations">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCWALL</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>PLUMBINGWALL</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:classification cardinality="required">
+          <ids:value>
+            <ids:simpleValue>Ss_25_30_45_25</ids:simpleValue>
+          </ids:value>
+          <ids:system>
+            <ids:simpleValue>Uniclass2015</ids:simpleValue>
+          </ids:system>
+        </ids:classification>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Classification2" description="an example of classification for entities and enumerations">
+      <ids:applicability minOccurs="0" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCBOILER</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>STEAM</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:classification cardinality="required">
+          <ids:value>
+            <ids:simpleValue>Ss_45_15_70_27</ids:simpleValue>
+          </ids:value>
+          <ids:system>
+            <ids:simpleValue>Uniclass2015</ids:simpleValue>
+          </ids:system>
+        </ids:classification>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Classification3" description="an example of classification for entities and enumerations">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCCHILLER</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>AIRCOOLED</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:classification cardinality="required">
+          <ids:value>
+            <ids:simpleValue>Ss_55_50_35_12</ids:simpleValue>
+          </ids:value>
+          <ids:system>
+            <ids:simpleValue>Uniclass2015</ids:simpleValue>
+          </ids:system>
+        </ids:classification>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Classification4" description="an example of classification for entities and enumerations">
+      <ids:applicability minOccurs="0" maxOccurs="0">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCFAN</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>CENTRIFUGALRADIAL</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:classification cardinality="required">
+          <ids:value>
+            <ids:simpleValue>Ss_65_80_25_20</ids:simpleValue>
+          </ids:value>
+          <ids:system>
+            <ids:simpleValue>Uniclass2015</ids:simpleValue>
+          </ids:system>
+        </ids:classification>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Classification5" description="an example of classification for entities and enumerations">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:classification>
+          <ids:value>
+            <ids:simpleValue>(58.21) regeling klimaat en sanitair; centrale melding, meting en sturing, specifieke regeling</ids:simpleValue>
+          </ids:value>
+          <ids:system>
+            <ids:simpleValue>NL-SfB 2005</ids:simpleValue>
+          </ids:system>
+        </ids:classification>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Classification6" description="an example of classification for entities and enumerations">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:classification>
+          <ids:value>
+            <ids:simpleValue>(58.21) regeling klimaat en sanitair; centrale melding, meting en sturing, specifieke regeling</ids:simpleValue>
+          </ids:value>
+          <ids:system>
+            <ids:simpleValue>NL-SfB 2005</ids:simpleValue>
+          </ids:system>
+        </ids:classification>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Classification7" description="an example of classification for entities and enumerations">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:classification>
+          <ids:value>
+            <ids:simpleValue>CLAY_DRAINAGE_PIPE_WORKS</ids:simpleValue>
+          </ids:value>
+          <ids:system>
+            <ids:simpleValue>Midas Heritage Dictionary - Monument Types</ids:simpleValue>
+          </ids:system>
+        </ids:classification>
+        <ids:classification>
+          <ids:value>
+            <ids:simpleValue>CLAY_PIPE_KILN</ids:simpleValue>
+          </ids:value>
+          <ids:system>
+            <ids:simpleValue>Midas Heritage Dictionary - Monument Types</ids:simpleValue>
+          </ids:system>
+        </ids:classification>
+        <ids:classification>
+          <ids:value>
+            <ids:simpleValue>Clay_Pipe_Manufactory</ids:simpleValue>
+          </ids:value>
+          <ids:system>
+            <ids:simpleValue>Midas Heritage Dictionary - Monument Types</ids:simpleValue>
+          </ids:system>
+        </ids:classification>
+        <ids:classification>
+          <ids:value>
+            <ids:simpleValue>CLAY_TOBACCO_PIPE_FACTORY</ids:simpleValue>
+          </ids:value>
+          <ids:system>
+            <ids:simpleValue>Midas Heritage Dictionary - Monument Types</ids:simpleValue>
+          </ids:system>
+        </ids:classification>
+        <ids:classification>
+          <ids:value>
+            <ids:simpleValue>CANADIAN_PIPE_MINE</ids:simpleValue>
+          </ids:value>
+          <ids:system>
+            <ids:simpleValue>Midas Heritage Dictionary - Monument Types</ids:simpleValue>
+          </ids:system>
+        </ids:classification>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Classification8" description="an example of classification for entities and enumerations">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:classification>
+          <ids:value>
+            <ids:simpleValue>0M.10.00.00.00.00.00</ids:simpleValue>
+          </ids:value>
+          <ids:system>
+            <ids:simpleValue>CIBW78_2024 - NBR 15965</ids:simpleValue>
+          </ids:system>
+        </ids:classification>
+        <ids:classification>
+          <ids:value>
+            <ids:simpleValue>0M.10.10.00.00.00.00</ids:simpleValue>
+          </ids:value>
+          <ids:system>
+            <ids:simpleValue>CIBW78_2024 - NBR 15965</ids:simpleValue>
+          </ids:system>
+        </ids:classification>
+        <ids:classification>
+          <ids:value>
+            <ids:simpleValue>0M.10.30.00.00.00.00</ids:simpleValue>
+          </ids:value>
+          <ids:system>
+            <ids:simpleValue>CIBW78_2024 - NBR 15965</ids:simpleValue>
+          </ids:system>
+        </ids:classification>
+        <ids:classification>
+          <ids:value>
+            <ids:simpleValue>0M.10.40.00.00.00.00</ids:simpleValue>
+          </ids:value>
+          <ids:system>
+            <ids:simpleValue>CIBW78_2024 - NBR 15965</ids:simpleValue>
+          </ids:system>
+        </ids:classification>
+        <ids:classification>
+          <ids:value>
+            <ids:simpleValue>1F.40.40.14.11.00.00</ids:simpleValue>
+          </ids:value>
+          <ids:system>
+            <ids:simpleValue>CIBW78_2024 - NBR 15965</ids:simpleValue>
+          </ids:system>
+        </ids:classification>
+        <ids:classification>
+          <ids:value>
+            <ids:simpleValue>1S.30.20.03.00.00.00</ids:simpleValue>
+          </ids:value>
+          <ids:system>
+            <ids:simpleValue>CIBW78_2024 - NBR 15965</ids:simpleValue>
+          </ids:system>
+        </ids:classification>
+        <ids:classification>
+          <ids:value>
+            <ids:simpleValue>1S.60.30.01.00.00.00</ids:simpleValue>
+          </ids:value>
+          <ids:system>
+            <ids:simpleValue>CIBW78_2024 - NBR 15965</ids:simpleValue>
+          </ids:system>
+        </ids:classification>
+        <ids:classification>
+          <ids:value>
+            <ids:simpleValue>1S.60.30.04.00.00.00</ids:simpleValue>
+          </ids:value>
+          <ids:system>
+            <ids:simpleValue>CIBW78_2024 - NBR 15965</ids:simpleValue>
+          </ids:system>
+        </ids:classification>
+        <ids:classification>
+          <ids:value>
+            <ids:simpleValue>1S.70.35.11.00.00.00</ids:simpleValue>
+          </ids:value>
+          <ids:system>
+            <ids:simpleValue>CIBW78_2024 - NBR 15965</ids:simpleValue>
+          </ids:system>
+        </ids:classification>
+        <ids:classification>
+          <ids:value>
+            <ids:simpleValue>2C.02.42.18.00.00.00</ids:simpleValue>
+          </ids:value>
+          <ids:system>
+            <ids:simpleValue>CIBW78_2024 - NBR 15965</ids:simpleValue>
+          </ids:system>
+        </ids:classification>
+        <ids:classification>
+          <ids:value>
+            <ids:simpleValue>2C.14.10.10.00.00.00</ids:simpleValue>
+          </ids:value>
+          <ids:system>
+            <ids:simpleValue>CIBW78_2024 - NBR 15965</ids:simpleValue>
+          </ids:system>
+        </ids:classification>
+        <ids:classification>
+          <ids:value>
+            <ids:simpleValue>2C.14.30.02.00.00.00</ids:simpleValue>
+          </ids:value>
+          <ids:system>
+            <ids:simpleValue>CIBW78_2024 - NBR 15965</ids:simpleValue>
+          </ids:system>
+        </ids:classification>
+        <ids:classification>
+          <ids:value>
+            <ids:simpleValue>2C.14.42.80.02.00.00</ids:simpleValue>
+          </ids:value>
+          <ids:system>
+            <ids:simpleValue>CIBW78_2024 - NBR 15965</ids:simpleValue>
+          </ids:system>
+        </ids:classification>
+        <ids:classification>
+          <ids:value>
+            <ids:simpleValue>2C.14.74.50.10.00.00</ids:simpleValue>
+          </ids:value>
+          <ids:system>
+            <ids:simpleValue>CIBW78_2024 - NBR 15965</ids:simpleValue>
+          </ids:system>
+        </ids:classification>
+        <ids:classification>
+          <ids:value>
+            <ids:simpleValue>2C.14.46.02.00.00.00</ids:simpleValue>
+          </ids:value>
+          <ids:system>
+            <ids:simpleValue>CIBW78_2024 - NBR 15965</ids:simpleValue>
+          </ids:system>
+        </ids:classification>
+        <ids:classification>
+          <ids:value>
+            <ids:simpleValue>2C.14.74.50.30.00.00</ids:simpleValue>
+          </ids:value>
+          <ids:system>
+            <ids:simpleValue>CIBW78_2024 - NBR 15965</ids:simpleValue>
+          </ids:system>
+        </ids:classification>
+        <ids:classification>
+          <ids:value>
+            <ids:simpleValue>2C.14.78.30.00.00.00</ids:simpleValue>
+          </ids:value>
+          <ids:system>
+            <ids:simpleValue>CIBW78_2024 - NBR 15965</ids:simpleValue>
+          </ids:system>
+        </ids:classification>
+        <ids:classification>
+          <ids:value>
+            <ids:simpleValue>2C.14.78.46.00.00.00</ids:simpleValue>
+          </ids:value>
+          <ids:system>
+            <ids:simpleValue>CIBW78_2024 - NBR 15965</ids:simpleValue>
+          </ids:system>
+        </ids:classification>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Classification9" description="an example of classification for entities and enumerations">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:classification>
+          <ids:value>
+            <ids:simpleValue>01-ADS444</ids:simpleValue>
+          </ids:value>
+          <ids:system>
+            <ids:simpleValue>ECLASS Classes</ids:simpleValue>
+          </ids:system>
+        </ids:classification>
+        <ids:classification>
+          <ids:value>
+            <ids:simpleValue>01-ADS444</ids:simpleValue>
+          </ids:value>
+          <ids:system>
+            <ids:simpleValue>ECLASS HasPart</ids:simpleValue>
+          </ids:system>
+        </ids:classification>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Classification10" description="an example of classification for entities and enumerations">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:classification>
+          <ids:value>
+            <ids:simpleValue>AkaZtPp2GRF5mJoGhXrQrJN3K</ids:simpleValue>
+          </ids:value>
+          <ids:system>
+            <ids:simpleValue>土木工事標準積算基準</ids:simpleValue>
+          </ids:system>
+        </ids:classification>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Classification11" description="an example of classification">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:classification>
+          <ids:value>
+            <ids:simpleValue>E-AKA</ids:simpleValue>
+          </ids:value>
+          <ids:system>
+            <ids:simpleValue>CCI Construction</ids:simpleValue>
+          </ids:system>
+        </ids:classification>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Classification12" description="an example of classification">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:classification>
+          <ids:value>
+            <ids:simpleValue>17.23.3b</ids:simpleValue>
+          </ids:value>
+          <ids:system>
+            <ids:simpleValue>Cahier des Charges Type Bâtiments</ids:simpleValue>
+          </ids:system>
+        </ids:classification>
+        <ids:classification>
+          <ids:value>
+            <ids:simpleValue>17.23.3c</ids:simpleValue>
+          </ids:value>
+          <ids:system>
+            <ids:simpleValue>Cahier des Charges Type Bâtiments</ids:simpleValue>
+          </ids:system>
+        </ids:classification>
+        <ids:classification>
+          <ids:value>
+            <ids:simpleValue>17.23.3d</ids:simpleValue>
+          </ids:value>
+          <ids:system>
+            <ids:simpleValue>Cahier des Charges Type Bâtiments</ids:simpleValue>
+          </ids:system>
+        </ids:classification>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Classification13" description="an example of classification">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:classification>
+          <ids:value>
+            <ids:simpleValue>EC000795</ids:simpleValue>
+          </ids:value>
+          <ids:system>
+            <ids:simpleValue>ETIM</ids:simpleValue>
+          </ids:system>
+        </ids:classification>
+        <ids:classification>
+          <ids:value>
+            <ids:simpleValue>EC000800</ids:simpleValue>
+          </ids:value>
+          <ids:system>
+            <ids:simpleValue>ETIM</ids:simpleValue>
+          </ids:system>
+        </ids:classification>
+        <ids:classification>
+          <ids:value>
+            <ids:simpleValue>EC000800</ids:simpleValue>
+          </ids:value>
+          <ids:system>
+            <ids:simpleValue>ETIM</ids:simpleValue>
+          </ids:system>
+        </ids:classification>
+        <ids:classification>
+          <ids:value>
+            <ids:simpleValue>EC000817</ids:simpleValue>
+          </ids:value>
+          <ids:system>
+            <ids:simpleValue>ETIM</ids:simpleValue>
+          </ids:system>
+        </ids:classification>
+        <ids:classification>
+          <ids:value>
+            <ids:simpleValue>EC000818</ids:simpleValue>
+          </ids:value>
+          <ids:system>
+            <ids:simpleValue>ETIM</ids:simpleValue>
+          </ids:system>
+        </ids:classification>
+        <ids:classification>
+          <ids:value>
+            <ids:simpleValue>EC000833</ids:simpleValue>
+          </ids:value>
+          <ids:system>
+            <ids:simpleValue>ETIM</ids:simpleValue>
+          </ids:system>
+        </ids:classification>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Classification14" description="an example of classification">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:material>
+          <ids:value>
+            <ids:simpleValue>beton_bimsbeton_steen</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Classification15" description="an example of classification">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:material>
+          <ids:value>
+            <ids:simpleValue>beton_bimsbeton_steen</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+        <ids:material>
+          <ids:value>
+            <ids:simpleValue>CEDAR</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Classification16" description="an example of classification">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:classification>
+          <ids:value>
+            <ids:simpleValue>571111</ids:simpleValue>
+          </ids:value>
+          <ids:system>
+            <ids:simpleValue>archidatkosten</ids:simpleValue>
+          </ids:system>
+        </ids:classification>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Classification17" description="an example of classification">
+      <ids:applicability minOccurs="0" maxOccurs="0">
+        <ids:material>
+          <ids:value>
+            <ids:simpleValue>Bolton_Wood_Stone</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Classification18" description="an example of classification">
+      <ids:applicability minOccurs="0" maxOccurs="unbounded">
+        <ids:material>
+          <ids:value>
+            <ids:simpleValue>WWD</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Classification19" description="an example of classification">
+      <ids:applicability minOccurs="0" maxOccurs="0">
+        <ids:material />
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Classification20" description="an example of classification for entities and enumerations">
+      <ids:applicability minOccurs="0" maxOccurs="0">
+        <ids:material>
+          <ids:value>
+            <ids:simpleValue>962f1fa8-31ed-4b25-a939-2beadff2a88d</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+  </ids:specifications>
+</ids:ids>

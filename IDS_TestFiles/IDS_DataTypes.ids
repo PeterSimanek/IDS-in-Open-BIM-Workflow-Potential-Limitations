@@ -1,0 +1,1479 @@
+<ids:ids xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.buildingsmart.org/IDS http://standards.buildingsmart.org/IDS/1.0/ids.xsd" xmlns:ids="http://standards.buildingsmart.org/IDS">
+  <!--edited with usBIM.IDSeditor 2.2.8.0 (http://www.accasoftware.com)-->
+  <ids:info>
+    <ids:title>New ids file</ids:title>
+  </ids:info>
+  <ids:specifications>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="DataTypes&#xA;" description="Data Types Pset and Properties">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCWALL</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>PARAPET</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:property dataType="IFCLABEL" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/AssemblyPlace" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_ConcreteElementGeneral</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>AssemblyPlace</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/CastingMethod" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_ConcreteElementGeneral</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>CastingMethod</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCPOSITIVELENGTHMEASURE" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ConcreteCover" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_ConcreteElementGeneral</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>ConcreteCover</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCPOSITIVELENGTHMEASURE" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ConcreteCoverAtLinks" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_ConcreteElementGeneral</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>ConcreteCoverAtLinks</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCPOSITIVELENGTHMEASURE" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ConcreteCoverAtMainBars" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_ConcreteElementGeneral</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>ConcreteCoverAtMainBars</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ConstructionToleranceClass" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_ConcreteElementGeneral</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>ConstructionToleranceClass</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/DimensionalAccuracyClass" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_ConcreteElementGeneral</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>DimensionalAccuracyClass</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ExposureClass" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_ConcreteElementGeneral</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>ExposureClass</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCAREADENSITYMEASURE" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ReinforcementAreaRatio" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_ConcreteElementGeneral</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>ReinforcementAreaRatio</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ReinforcementStrengthClass" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_ConcreteElementGeneral</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>ReinforcementStrengthClass</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCMASSDENSITYMEASURE" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ReinforcementVolumeRatio" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_ConcreteElementGeneral</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>ReinforcementVolumeRatio</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/StrengthClass" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_ConcreteElementGeneral</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>StrengthClass</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/StructuralClass" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_ConcreteElementGeneral</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>StructuralClass</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCDATE" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/AcquisitionDate" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_ManufacturerOccurrence</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>AcquisitionDate</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/AssemblyPlace" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_ManufacturerOccurrence</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>AssemblyPlace</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCIDENTIFIER" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/BarCode" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_ManufacturerOccurrence</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>BarCode</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCIDENTIFIER" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/BatchReference" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_ManufacturerOccurrence</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>BatchReference</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCDATE" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ManufacturingDate" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_ManufacturerOccurrence</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>ManufacturingDate</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCIDENTIFIER" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/SerialNumber" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_ManufacturerOccurrence</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>SerialNumber</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/AssociatedActivity" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_Risk</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>AssociatedActivity</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/AssociatedLocation" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_Risk</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>AssociatedLocation</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/AssociatedProduct" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_Risk</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>AssociatedProduct</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/MitigatedRiskConsequence" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_Risk</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MitigatedRiskConsequence</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/MitigatedRiskLikelihood" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_Risk</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MitigatedRiskLikelihood</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/MitigatedRiskSignificance" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_Risk</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MitigatedRiskSignificance</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/MitigationPlanned" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_Risk</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MitigationPlanned</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/MitigationProposed" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_Risk</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MitigationProposed</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NatureOfRisk" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_Risk</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>NatureOfRisk</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/RiskAssessmentMethodology" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_Risk</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>RiskAssessmentMethodology</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/RiskName" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_Risk</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>RiskName</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/RiskType" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_Risk</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>RiskType</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/UnmitigatedRiskConsequence" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_Risk</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>UnmitigatedRiskConsequence</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/UnmitigatedRiskLikelihood" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_Risk</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>UnmitigatedRiskLikelihood</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/UnmitigatedRiskSignificance" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_Risk</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>UnmitigatedRiskSignificance</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/Description" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Attributes</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>Description</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ElementType" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Attributes</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>ElementType</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/GlobalId" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Attributes</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>GlobalId</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/Name" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Attributes</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>Name</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ObjectType" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Attributes</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>ObjectType</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="DataTypes1">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCBRIDGE</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>ARCHED</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:property dataType="IFCLABEL" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/StructureIndicator" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_BridgeCommon</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>StructureIndicator</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCDATE" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/AgreementDate" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_PropertyAgreement</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>AgreementDate</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/AgreementType" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_PropertyAgreement</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>AgreementType</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/AgreementVersion" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_PropertyAgreement</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>AgreementVersion</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCDATE" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/CommencementDate" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_PropertyAgreement</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>CommencementDate</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCTEXT" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ConditionCommencement" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_PropertyAgreement</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>ConditionCommencement</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCTEXT" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ConditionTermination" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_PropertyAgreement</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>ConditionTermination</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCDURATION" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/Duration" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_PropertyAgreement</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>Duration</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCTEXT" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/Options" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_PropertyAgreement</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>Options</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/PropertyName" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_PropertyAgreement</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>PropertyName</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCTEXT" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/Restrictions" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_PropertyAgreement</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>Restrictions</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCDATE" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/TerminationDate" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_PropertyAgreement</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>TerminationDate</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCIDENTIFIER" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/TrackingIdentifier" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_PropertyAgreement</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>TrackingIdentifier</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCBOOLEAN" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>MyPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MyProperty1</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCDATE" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>MyPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MyProperty2</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCDATETIME" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>MyPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MyProperty3</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCIDENTIFIER" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>MyPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MyProperty4</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCINTEGER" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>MyPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MyProperty6</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>MyPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MyProperty7</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCNUMERICMEASURE" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>MyPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MyProperty8</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCPOWERMEASURE" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>MyPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MyProperty9</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCREAL" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>MyPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MyProperty10</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCTEXT" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>MyPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MyProperty11</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCTIME" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>MyPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MyProperty12</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCTIMESTAMP" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>MyPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MyProperty13</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCVOLUMEMEASURE" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>MyPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MyProperty14</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCABSORBEDDOSEMEASURE" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>MyPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MyProperty15</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCACCELERATIONMEASURE" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>MyPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MyProperty16</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCACTIONREQUESTTYPEENUM" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>MyPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MyProperty17</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCACTIONSOURCETYPEENUM" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>MyPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MyProperty18</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCADDRESSTYPEENUM" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>MyPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MyProperty19</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCCONSTRAINTENUM" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>MyPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MyProperty20</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCGRIDTYPEENUM" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>MyPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MyProperty21</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLOADGROUPTYPEENUM" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>MyPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MyProperty22</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCABSORBEDDOSEMEASURE" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>MyPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MyProperty23</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="DataTypes2">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCLIGHTFIXTURE</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>POINTSOURCE</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:attribute cardinality="required">
+          <ids:name>
+            <ids:simpleValue>ActualFinish</ids:simpleValue>
+          </ids:name>
+        </ids:attribute>
+        <ids:attribute cardinality="required">
+          <ids:name>
+            <ids:simpleValue>Creators</ids:simpleValue>
+          </ids:name>
+        </ids:attribute>
+        <ids:attribute cardinality="required">
+          <ids:name>
+            <ids:simpleValue>BenchmarkValues</ids:simpleValue>
+          </ids:name>
+        </ids:attribute>
+        <ids:attribute cardinality="required">
+          <ids:name>
+            <ids:simpleValue>LetterSpacing</ids:simpleValue>
+          </ids:name>
+        </ids:attribute>
+        <ids:attribute cardinality="required">
+          <ids:name>
+            <ids:simpleValue>ReferencedDocument</ids:simpleValue>
+          </ids:name>
+        </ids:attribute>
+        <ids:property dataType="IFCCOUNTMEASURE" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/SurfaceGenusAfterFeatures" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Qto_BodyGeometryValidation</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>SurfaceGenusAfterFeatures</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCVOLUMEMEASURE" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NetVolume" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Qto_BodyGeometryValidation</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>NetVolume</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCAREAMEASURE" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NetSurfaceArea" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Qto_BodyGeometryValidation</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>NetSurfaceArea</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCVOLUMEMEASURE" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/GrossVolume" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Qto_BodyGeometryValidation</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>GrossVolume</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCAREAMEASURE" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/GrossSurfaceArea" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Qto_BodyGeometryValidation</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>GrossSurfaceArea</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/UnmitigatedRiskSignificance" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_Risk</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>UnmitigatedRiskSignificance</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="DataTypes3">
+      <ids:applicability minOccurs="0" maxOccurs="0">
+        <ids:property dataType="IFCLENGTHMEASURE">
+          <ids:propertySet>
+            <ids:simpleValue>Qto_CurtainWallQuantities</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>Width</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCAREAMEASURE">
+          <ids:propertySet>
+            <ids:simpleValue>Qto_CurtainWallQuantities</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>NetSideArea</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLENGTHMEASURE">
+          <ids:propertySet>
+            <ids:simpleValue>Qto_CurtainWallQuantities</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>Length</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLENGTHMEASURE">
+          <ids:propertySet>
+            <ids:simpleValue>Qto_CurtainWallQuantities</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>Height</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCAREAMEASURE">
+          <ids:propertySet>
+            <ids:simpleValue>Qto_CurtainWallQuantities</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>GrossSideArea</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_LinearReferencingMethod</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>LRMConstraint</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_LinearReferencingMethod</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>LRMName</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_LinearReferencingMethod</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>LRMType</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_LinearReferencingMethod</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>LRMUnit</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_LinearReferencingMethod</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>UserDefinedLRMType</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="DataTypes4">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCZONE</ids:simpleValue>
+          </ids:name>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:property dataType="IFCAREAMEASURE" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/GrossPlannedArea" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_ZoneCommon</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>GrossPlannedArea</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCBOOLEAN" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/HandicapAccessible" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_ZoneCommon</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>HandicapAccessible</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCBOOLEAN" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/IsExternal" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_ZoneCommon</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>IsExternal</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCAREAMEASURE" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NetPlannedArea" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_ZoneCommon</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>NetPlannedArea</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCBOOLEAN" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/PubliclyAccessible" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_ZoneCommon</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>PubliclyAccessible</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCTHERMODYNAMICTEMPERATUREMEASURE" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/TemperatureWinterMin" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_SpaceHVACDesign</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>TemperatureWinterMin</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCTHERMODYNAMICTEMPERATUREMEASURE" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/TemperatureWinterMax" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_SpaceHVACDesign</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>TemperatureWinterMax</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCTHERMODYNAMICTEMPERATUREMEASURE" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/TemperatureSummerMin" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_SpaceHVACDesign</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>TemperatureSummerMin</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCTHERMODYNAMICTEMPERATUREMEASURE" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/TemperatureSummerMax" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_SpaceHVACDesign</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>TemperatureSummerMax</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCTHERMODYNAMICTEMPERATUREMEASURE" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/TemperatureSetPoint" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_SpaceHVACDesign</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>TemperatureSetPoint</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCTHERMODYNAMICTEMPERATUREMEASURE" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/TemperatureMin" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_SpaceHVACDesign</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>TemperatureMin</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCTHERMODYNAMICTEMPERATUREMEASURE" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/TemperatureMax" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_SpaceHVACDesign</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>TemperatureMax</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCNUMERICMEASURE" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NaturalVentilationRate" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_SpaceHVACDesign</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>NaturalVentilationRate</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCBOOLEAN" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NaturalVentilation" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_SpaceHVACDesign</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>NaturalVentilation</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCNUMERICMEASURE" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/MechanicalVentilationRate" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_SpaceHVACDesign</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MechanicalVentilationRate</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCBOOLEAN" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/MechanicalVentilation" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_SpaceHVACDesign</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MechanicalVentilation</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCPOSITIVERATIOMEASURE" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/HumidityWinter" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_SpaceHVACDesign</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>HumidityWinter</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCPOSITIVERATIOMEASURE" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/HumiditySummer" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_SpaceHVACDesign</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>HumiditySummer</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCPOSITIVERATIOMEASURE" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/HumiditySetPoint" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_SpaceHVACDesign</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>HumiditySetPoint</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCPOSITIVERATIOMEASURE" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/HumidityMin" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_SpaceHVACDesign</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>HumidityMin</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCPOSITIVERATIOMEASURE" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/HumidityMax" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_SpaceHVACDesign</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>HumidityMax</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCBOOLEAN" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/DiscontinuedHeating" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_SpaceHVACDesign</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>DiscontinuedHeating</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/AirHandlingName" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_SpaceHVACDesign</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>AirHandlingName</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCBOOLEAN" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/AirConditioningCentral" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_SpaceHVACDesign</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>AirConditioningCentral</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCBOOLEAN" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/AirConditioning" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_SpaceHVACDesign</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>AirConditioning</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCSUBCONTRACTRESOURCETYPEENUM" cardinality="prohibited">
+          <ids:propertySet>
+            <ids:simpleValue>ThatPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>ThatProperty1</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCSUBCONTRACTRESOURCETYPEENUM" cardinality="prohibited">
+          <ids:propertySet>
+            <ids:simpleValue>ThatPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>ThatProperty2</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCTEXTFONTNAME" cardinality="prohibited">
+          <ids:propertySet>
+            <ids:simpleValue>ThatPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>ThatProperty3</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCWINDOWPANELOPERATIONENUM" cardinality="prohibited">
+          <ids:propertySet>
+            <ids:simpleValue>ThatPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>ThatProperty4</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCWORKCALENDARTYPEENUM" cardinality="prohibited">
+          <ids:propertySet>
+            <ids:simpleValue>ThatPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>ThatProperty5</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCWORKSCHEDULETYPEENUM" cardinality="prohibited">
+          <ids:propertySet>
+            <ids:simpleValue>ThatPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>ThatProperty6</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="DataTypes5">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCPERSON</ids:simpleValue>
+          </ids:name>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:attribute cardinality="required">
+          <ids:name>
+            <ids:simpleValue>Identifi</ids:simpleValue>
+          </ids:name>
+        </ids:attribute>
+        <ids:attribute cardinality="required">
+          <ids:name>
+            <ids:simpleValue>FamilyName</ids:simpleValue>
+          </ids:name>
+        </ids:attribute>
+        <ids:attribute cardinality="required">
+          <ids:name>
+            <ids:simpleValue>GivenName</ids:simpleValue>
+          </ids:name>
+        </ids:attribute>
+        <ids:attribute cardinality="required">
+          <ids:name>
+            <ids:simpleValue>MiddleNames</ids:simpleValue>
+          </ids:name>
+        </ids:attribute>
+        <ids:attribute cardinality="required">
+          <ids:name>
+            <ids:simpleValue>PrefixTitles</ids:simpleValue>
+          </ids:name>
+        </ids:attribute>
+        <ids:attribute cardinality="required">
+          <ids:name>
+            <ids:simpleValue>SuffixTitles</ids:simpleValue>
+          </ids:name>
+        </ids:attribute>
+        <ids:attribute cardinality="required">
+          <ids:name>
+            <ids:simpleValue>Roles</ids:simpleValue>
+          </ids:name>
+        </ids:attribute>
+        <ids:attribute cardinality="required">
+          <ids:name>
+            <ids:simpleValue>Addresses</ids:simpleValue>
+          </ids:name>
+        </ids:attribute>
+        <ids:property dataType="IFCBOOLEAN" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/IsExternal" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>undefined_set</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>IsExternal</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCBOOLEAN" uri="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/LoadBearing" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>undefined_set</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>LoadBearing</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property cardinality="optional">
+          <ids:propertySet>
+            <ids:simpleValue>OtherProperties</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>OtherProperty1</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property cardinality="optional">
+          <ids:propertySet>
+            <ids:simpleValue>OtherProperties</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>OtherProperty2</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property cardinality="optional">
+          <ids:propertySet>
+            <ids:simpleValue>OtherProperties</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>OtherProperty3</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property cardinality="optional">
+          <ids:propertySet>
+            <ids:simpleValue>OtherProperties</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>OtherProperty4</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property cardinality="optional">
+          <ids:propertySet>
+            <ids:simpleValue>OtherProperties</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>OtherProperty5</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCMEDICALDEVICETYPEENUM" cardinality="optional">
+          <ids:propertySet>
+            <ids:simpleValue>OtherProperties</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>OtherProperty6</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCMAGNETICFLUXDENSITYMEASURE" cardinality="optional">
+          <ids:propertySet>
+            <ids:simpleValue>OtherProperties</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>OtherProperty7</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCMODULUSOFLINEARSUBGRADEREACTIONMEASURE" cardinality="optional">
+          <ids:propertySet>
+            <ids:simpleValue>OtherProperties</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>OtherProperty8</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCKERBTYPEENUM" cardinality="optional">
+          <ids:propertySet>
+            <ids:simpleValue>OtherProperties</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>OtherProperty9</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCFILTERTYPEENUM" cardinality="optional">
+          <ids:propertySet>
+            <ids:simpleValue>OtherProperties</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>OtherProperty10</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Must&#xA;">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCSITE</ids:simpleValue>
+          </ids:name>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:property dataType="IFCCOMPLEXPROPERTYTEMPLATETYPEENUM" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>MustPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MustProperty1</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCBRIDGETYPEENUM" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>MustPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MustProperty2</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCCURTAINWALLTYPEENUM" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>MustPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MustProperty3</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCDOCUMENTSTATUSENUM" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>MustPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MustProperty4</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCELEMENTCOMPOSITIONENUM" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>MustPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MustProperty5</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCINVENTORYTYPEENUM" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>MustPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MustProperty6</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCREFLECTANCEMETHODENUM" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>MustPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MustProperty7</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCSTATEENUM" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>MustPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MustProperty8</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCSOUNDPRESSURELEVELMEASURE" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>MustPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MustProperty9</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCSPECULARROUGHNESS" cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>MustPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MustProperty10</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="May">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCPROJECT</ids:simpleValue>
+          </ids:name>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:property dataType="IFCDISTRIBUTIONPORTTYPEENUM" cardinality="optional">
+          <ids:propertySet>
+            <ids:simpleValue>MayPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MayProperty1</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCVOLUMEMEASURE" cardinality="optional">
+          <ids:propertySet>
+            <ids:simpleValue>MayPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MayProperty2</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCPOWERMEASURE" cardinality="optional">
+          <ids:propertySet>
+            <ids:simpleValue>MayPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MayProperty3</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL" cardinality="optional">
+          <ids:propertySet>
+            <ids:simpleValue>MayPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MayProperty4</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCINTEGER" cardinality="optional">
+          <ids:propertySet>
+            <ids:simpleValue>MayPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MayProperty5</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCIDENTIFIER" cardinality="optional">
+          <ids:propertySet>
+            <ids:simpleValue>MayPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MayProperty6</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCDURATION" cardinality="optional">
+          <ids:propertySet>
+            <ids:simpleValue>MayPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MayProperty7</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCDATETIME" cardinality="optional">
+          <ids:propertySet>
+            <ids:simpleValue>MayPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MayProperty8</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCDATE" cardinality="optional">
+          <ids:propertySet>
+            <ids:simpleValue>MayPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MayProperty9</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCBOOLEAN" cardinality="optional">
+          <ids:propertySet>
+            <ids:simpleValue>MayPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MayProperty10</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="MustNot">
+      <ids:applicability minOccurs="0" maxOccurs="0">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCFLOWFITTING</ids:simpleValue>
+          </ids:name>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:property dataType="IFCANNOTATIONTYPEENUM" cardinality="prohibited">
+          <ids:propertySet>
+            <ids:simpleValue>MustNotPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MustNotProperty1</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCPOWERMEASURE" cardinality="prohibited">
+          <ids:propertySet>
+            <ids:simpleValue>MustNotPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MustNotProperty2</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCNUMERICMEASURE" cardinality="prohibited">
+          <ids:propertySet>
+            <ids:simpleValue>MustNotPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MustNotProperty3</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCLABEL" cardinality="prohibited">
+          <ids:propertySet>
+            <ids:simpleValue>MustNotPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MustNotProperty4</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCINTEGER" cardinality="prohibited">
+          <ids:propertySet>
+            <ids:simpleValue>MustNotPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MustNotProperty5</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCIDENTIFIER" cardinality="prohibited">
+          <ids:propertySet>
+            <ids:simpleValue>MustNotPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MustNotProperty6</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCDURATION" cardinality="prohibited">
+          <ids:propertySet>
+            <ids:simpleValue>MustNotPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MustNotProperty7</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCDATETIME" cardinality="prohibited">
+          <ids:propertySet>
+            <ids:simpleValue>MustNotPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MustNotProperty8</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCDATE" cardinality="prohibited">
+          <ids:propertySet>
+            <ids:simpleValue>MustNotPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MustNotProperty9</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property dataType="IFCBOOLEAN" cardinality="prohibited">
+          <ids:propertySet>
+            <ids:simpleValue>MustNotPropertySet</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>MustNotProperty10</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+      </ids:requirements>
+    </ids:specification>
+  </ids:specifications>
+</ids:ids>

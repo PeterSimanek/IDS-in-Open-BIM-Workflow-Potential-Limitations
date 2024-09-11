@@ -1,0 +1,375 @@
+<ids:ids xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.buildingsmart.org/IDS http://standards.buildingsmart.org/IDS/1.0/ids.xsd" xmlns:ids="http://standards.buildingsmart.org/IDS">
+  <!--edited with usBIM.IDSeditor 2.2.8.0 (http://www.accasoftware.com)-->
+  <ids:info>
+    <ids:title>PartOf</ids:title>
+    <ids:copyright>schaffe schaffe hoesle baue</ids:copyright>
+    <ids:version>1.0</ids:version>
+    <ids:description>IDK</ids:description>
+    <ids:author>pg54748@alunos.uminho.pt</ids:author>
+    <ids:date>2024-08-24</ids:date>
+    <ids:purpose>Training</ids:purpose>
+    <ids:milestone>Proof of Concept</ids:milestone>
+  </ids:info>
+  <ids:specifications>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="PartOf1">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCBUILDINGSTOREY</ids:simpleValue>
+          </ids:name>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:partOf relation="IFCRELAGGREGATES" cardinality="required">
+          <ids:entity>
+            <ids:name>
+              <ids:simpleValue>IFCBUILDING</ids:simpleValue>
+            </ids:name>
+          </ids:entity>
+        </ids:partOf>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="PartOf2">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCDOOR</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>NOTDEFINED</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:partOf relation="IFCRELASSIGNSTOGROUP" cardinality="required">
+          <ids:entity>
+            <ids:name>
+              <ids:simpleValue>IFCGROUP</ids:simpleValue>
+            </ids:name>
+          </ids:entity>
+        </ids:partOf>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="PartOf3">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCWALL</ids:simpleValue>
+          </ids:name>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:partOf relation="IFCRELCONTAINEDINSPATIALSTRUCTURE" cardinality="required">
+          <ids:entity>
+            <ids:name>
+              <ids:simpleValue>IFCBUILDINGSTOREY</ids:simpleValue>
+            </ids:name>
+          </ids:entity>
+        </ids:partOf>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="PartOf4">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCDOOR</ids:simpleValue>
+          </ids:name>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:partOf relation="IFCRELNESTS" cardinality="required">
+          <ids:entity>
+            <ids:name>
+              <ids:simpleValue>IFCWALL</ids:simpleValue>
+            </ids:name>
+          </ids:entity>
+        </ids:partOf>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="PartOf5">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCWALL</ids:simpleValue>
+          </ids:name>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:partOf relation="IFCRELVOIDSELEMENT IFCRELFILLSELEMENT" cardinality="required">
+          <ids:entity>
+            <ids:name>
+              <ids:simpleValue>IFCOPENINGELEMENT</ids:simpleValue>
+            </ids:name>
+            <ids:predefinedType>
+              <ids:simpleValue>OPENING</ids:simpleValue>
+            </ids:predefinedType>
+          </ids:entity>
+        </ids:partOf>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="PartOf6">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCBUILDINGSTOREY</ids:simpleValue>
+          </ids:name>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:partOf relation="IFCRELAGGREGATES" cardinality="required">
+          <ids:entity>
+            <ids:name>
+              <ids:simpleValue>IFCSPACE</ids:simpleValue>
+            </ids:name>
+          </ids:entity>
+        </ids:partOf>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="PartOf7">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCDOOR</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>BOOM_BARRIER</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:partOf relation="IFCRELASSIGNSTOGROUP" cardinality="required">
+          <ids:entity>
+            <ids:name>
+              <ids:simpleValue>IFCGROUP</ids:simpleValue>
+            </ids:name>
+          </ids:entity>
+        </ids:partOf>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="PartOf8">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCLIGHTFIXTURE</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>POINTSOURCE</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:partOf relation="IFCRELCONTAINEDINSPATIALSTRUCTURE" cardinality="required">
+          <ids:entity>
+            <ids:name>
+              <ids:simpleValue>IFCSPACE</ids:simpleValue>
+            </ids:name>
+            <ids:predefinedType>
+              <ids:simpleValue>INTERNAL</ids:simpleValue>
+            </ids:predefinedType>
+          </ids:entity>
+        </ids:partOf>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="PartOf9">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCWINDOW</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>USERDEFINED</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:partOf relation="IFCRELVOIDSELEMENT IFCRELFILLSELEMENT" cardinality="required">
+          <ids:entity>
+            <ids:name>
+              <ids:simpleValue>IFCOPENINGELEMENT</ids:simpleValue>
+            </ids:name>
+          </ids:entity>
+        </ids:partOf>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Partof10&#xA;">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCFLOWTERMINAL</ids:simpleValue>
+          </ids:name>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:partOf relation="IFCRELASSIGNSTOGROUP" cardinality="required">
+          <ids:entity>
+            <ids:name>
+              <ids:simpleValue>IFCGROUP</ids:simpleValue>
+            </ids:name>
+          </ids:entity>
+        </ids:partOf>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="PartOf11">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCSTAIR</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>HALF_WINDING_STAIR</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:partOf relation="IFCRELCONTAINEDINSPATIALSTRUCTURE" cardinality="required">
+          <ids:entity>
+            <ids:name>
+              <ids:simpleValue>IFCBUILDINGSTOREY</ids:simpleValue>
+            </ids:name>
+          </ids:entity>
+        </ids:partOf>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="PartOf12&#xA;">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCBUILDING</ids:simpleValue>
+          </ids:name>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:partOf relation="IFCRELAGGREGATES" cardinality="required">
+          <ids:entity>
+            <ids:name>
+              <ids:simpleValue>IFCBUILDING</ids:simpleValue>
+            </ids:name>
+          </ids:entity>
+        </ids:partOf>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="PartOf13">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCBUILDINGSTOREY</ids:simpleValue>
+          </ids:name>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:partOf relation="IFCRELAGGREGATES" cardinality="required">
+          <ids:entity>
+            <ids:name>
+              <ids:simpleValue>IFCSPACE</ids:simpleValue>
+            </ids:name>
+          </ids:entity>
+        </ids:partOf>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="PartOf14">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCFURNITURE</ids:simpleValue>
+          </ids:name>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:partOf relation="IFCRELCONTAINEDINSPATIALSTRUCTURE" cardinality="required">
+          <ids:entity>
+            <ids:name>
+              <ids:simpleValue>IFCSPACE</ids:simpleValue>
+            </ids:name>
+          </ids:entity>
+        </ids:partOf>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="PartOf15">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCSENSOR</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>COSENSOR</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:partOf relation="IFCRELASSIGNSTOGROUP" cardinality="required">
+          <ids:entity>
+            <ids:name>
+              <ids:simpleValue>IFCGROUP</ids:simpleValue>
+            </ids:name>
+          </ids:entity>
+        </ids:partOf>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="PartOf16">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCLIGHTFIXTURE</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>USERDEFINED</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:partOf relation="IFCRELCONTAINEDINSPATIALSTRUCTURE" cardinality="required">
+          <ids:entity>
+            <ids:name>
+              <ids:simpleValue>IFCSPACE</ids:simpleValue>
+            </ids:name>
+            <ids:predefinedType>
+              <ids:simpleValue>GFA</ids:simpleValue>
+            </ids:predefinedType>
+          </ids:entity>
+        </ids:partOf>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="PartOf17">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCSPACE</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>SPACE</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:partOf relation="IFCRELNESTS" cardinality="required">
+          <ids:entity>
+            <ids:name>
+              <ids:simpleValue>IFCFLOWSEGMENT</ids:simpleValue>
+            </ids:name>
+          </ids:entity>
+        </ids:partOf>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="PartOf18">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCSYSTEM</ids:simpleValue>
+          </ids:name>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:partOf relation="IFCRELAGGREGATES" cardinality="required">
+          <ids:entity>
+            <ids:name>
+              <ids:simpleValue>IFCDISTRIBUTIONBOARD</ids:simpleValue>
+            </ids:name>
+            <ids:predefinedType>
+              <ids:simpleValue>SWITCHBOARD</ids:simpleValue>
+            </ids:predefinedType>
+          </ids:entity>
+        </ids:partOf>
+      </ids:requirements>
+    </ids:specification>
+  </ids:specifications>
+</ids:ids>

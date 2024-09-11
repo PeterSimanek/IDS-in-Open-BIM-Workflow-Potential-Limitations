@@ -1,0 +1,519 @@
+<ids:ids xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.buildingsmart.org/IDS http://standards.buildingsmart.org/IDS/1.0/ids.xsd" xmlns:ids="http://standards.buildingsmart.org/IDS">
+  <!--edited with usBIM.IDSeditor 2.2.8.0 (http://www.accasoftware.com)-->
+  <ids:info>
+    <ids:title>New ids file</ids:title>
+  </ids:info>
+  <ids:specifications>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Attributes1" identifier="Attributes" description="Attributes are here part of Requirements" instructions="Attributes in filter part of Requirements">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCACTOR</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>Tom Hanks</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:attribute cardinality="required" instructions="sample">
+          <ids:name>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="GlobalId" />
+              <xs:enumeration value="OwnerHistory" />
+              <xs:enumeration value="Name" />
+              <xs:enumeration value="Description" />
+            </xs:restriction>
+          </ids:name>
+        </ids:attribute>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Attributes2" identifier="Attributes" description="Attributes are here part of Requirements" instructions="Attributes in filter part of Requirements">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCWALL</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>MOVABLE</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:attribute cardinality="required">
+          <ids:name>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="GlobalId" />
+              <xs:enumeration value="OwnerHistory" />
+              <xs:enumeration value="Name" />
+              <xs:enumeration value="ObjectType" />
+              <xs:enumeration value="ObjectPlacement" />
+              <xs:enumeration value="Representation" />
+              <xs:enumeration value="Tag" />
+              <xs:enumeration value="PredefinedType" />
+            </xs:restriction>
+          </ids:name>
+        </ids:attribute>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Attributes3" identifier="Attributes" description="Attributes are here part of Requirements" instructions="Attributes in filter part of Requirements">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCCOLUMN</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>PILASTER</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:attribute cardinality="required">
+          <ids:name>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="GlobalId" />
+              <xs:enumeration value="OwnerHistory" />
+              <xs:enumeration value="Name" />
+              <xs:enumeration value="LongName" />
+              <xs:enumeration value="Description" />
+              <xs:enumeration value="ObjectType" />
+              <xs:enumeration value="ObjectPlacement" />
+              <xs:enumeration value="Representation" />
+              <xs:enumeration value="Tag" />
+              <xs:enumeration value="PredefinedType" />
+            </xs:restriction>
+          </ids:name>
+        </ids:attribute>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Attributes4" identifier="Attributes" description="Attributes are here part of Requirements" instructions="Attributes in filter part of Requirements">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCWINDOW</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>NOTDEFINED</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:attribute cardinality="required">
+          <ids:name>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="OverallWidth" />
+              <xs:enumeration value="OverallHeight" />
+              <xs:enumeration value="OverallDepth" />
+              <xs:enumeration value="Tag" />
+              <xs:enumeration value="GlobalId" />
+            </xs:restriction>
+          </ids:name>
+        </ids:attribute>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Attributes5" identifier="Attributes" description="Attributes are here part of Requirements" instructions="Attributes in filter part of Requirements">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCBOILER</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>STEAM</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:attribute cardinality="required">
+          <ids:name>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="Tag" />
+              <xs:enumeration value="Representation" />
+              <xs:enumeration value="Name" />
+              <xs:enumeration value="LongName" />
+              <xs:enumeration value="ObjectType" />
+            </xs:restriction>
+          </ids:name>
+        </ids:attribute>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Attributes6" identifier="Attributes" description="Attributes are here part of Requirements" instructions="Attributes in filter part of Requirements">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCENGINE</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>INTERNALCOMBUSTION</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:attribute cardinality="required">
+          <ids:name>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="ActingRole" />
+              <xs:enumeration value="ActionType" />
+              <xs:enumeration value="ActualFinish" />
+              <xs:enumeration value="ActualStart" />
+              <xs:enumeration value="AdditionalConditions" />
+              <xs:enumeration value="Addresses" />
+              <xs:enumeration value="ActionSource" />
+              <xs:enumeration value="ActualDuration" />
+              <xs:enumeration value="AddressLines" />
+              <xs:enumeration value="AgreementFlag" />
+            </xs:restriction>
+          </ids:name>
+        </ids:attribute>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Attributes7" identifier="Attributes" description="Attributes are here part of Requirements" instructions="Attributes in filter part of Requirements">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCPERSON</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>Tom Hanks</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:attribute cardinality="required">
+          <ids:name>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="Identifier" />
+              <xs:enumeration value="FamilyName" />
+              <xs:enumeration value="GivenName" />
+              <xs:enumeration value="MiddleNames" />
+              <xs:enumeration value="PrefixTitles" />
+              <xs:enumeration value="SuffixTitles" />
+              <xs:enumeration value="Roles" />
+              <xs:enumeration value="Addresses" />
+            </xs:restriction>
+          </ids:name>
+        </ids:attribute>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Attributes8" identifier="Attributes" description="Attributes are here part of Requirements" instructions="Attributes in filter part of Requirements">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCBRIDGE</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>ARCHED</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:attribute cardinality="required">
+          <ids:name>
+            <ids:simpleValue>NominalLength</ids:simpleValue>
+          </ids:name>
+        </ids:attribute>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Attributes9" identifier="Attributes" description="Attributes are here part of Requirements" instructions="Attributes in filter part of Requirements">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCREINFORCINGBAR</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>LIGATURE</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:attribute cardinality="required">
+          <ids:name>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="Name" />
+              <xs:enumeration value="LongName" />
+              <xs:enumeration value="BarLength" />
+              <xs:enumeration value="BarCount" />
+              <xs:enumeration value="BarSurface" />
+              <xs:enumeration value="NominalBarDiameter" />
+              <xs:enumeration value="LongitudinalBarNominalDiameter" />
+              <xs:enumeration value="LongitudinalBarCrossSectionArea" />
+              <xs:enumeration value="LongitudinalBarSpacing" />
+              <xs:enumeration value="TransverseBarCrossSectionArea" />
+              <xs:enumeration value="TransverseBarNominalDiameter" />
+              <xs:enumeration value="TransverseBarSpacing" />
+            </xs:restriction>
+          </ids:name>
+        </ids:attribute>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Attributes10" identifier="Attributes" description="Attributes are here part of Requirements" instructions="Attributes in filter part of Requirements">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCSITE</ids:simpleValue>
+          </ids:name>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:attribute cardinality="required">
+          <ids:name>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="GlobalId" />
+              <xs:enumeration value="OwnerHistory" />
+              <xs:enumeration value="Name" />
+              <xs:enumeration value="Description" />
+              <xs:enumeration value="ObjectType" />
+              <xs:enumeration value="ObjectPlacement" />
+              <xs:enumeration value="Representation" />
+              <xs:enumeration value="LongName" />
+              <xs:enumeration value="CompositionType" />
+              <xs:enumeration value="RefLatitude" />
+              <xs:enumeration value="RefLongitude" />
+              <xs:enumeration value="RefElevation" />
+              <xs:enumeration value="LandTitleNumber" />
+              <xs:enumeration value="SiteAddress" />
+            </xs:restriction>
+          </ids:name>
+        </ids:attribute>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Attributes11" identifier="Attributes" description="Attributes are here part of Requirements" instructions="Attributes in filter part of Requirements">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCBUILDING</ids:simpleValue>
+          </ids:name>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:attribute cardinality="required">
+          <ids:name>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="GlobalId" />
+              <xs:enumeration value="OwnerHistory" />
+              <xs:enumeration value="Name" />
+              <xs:enumeration value="Description" />
+              <xs:enumeration value="ObjectType" />
+              <xs:enumeration value="ObjectPlacement" />
+              <xs:enumeration value="Representation" />
+              <xs:enumeration value="LongName" />
+              <xs:enumeration value="CompositionType" />
+              <xs:enumeration value="ElevationOfRefHeight" />
+              <xs:enumeration value="ElevationOfTerrain" />
+              <xs:enumeration value="BuildingAddress" />
+            </xs:restriction>
+          </ids:name>
+        </ids:attribute>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Attributes12" identifier="Attributes" description="Attributes are here part of Requirements" instructions="Attributes in filter part of Requirements">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCBUILDINGSYSTEM</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>OUTERSHELL</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:attribute cardinality="required">
+          <ids:name>
+            <ids:simpleValue>Name</ids:simpleValue>
+          </ids:name>
+          <ids:value>
+            <xs:restriction base="xs:string">
+              <xs:maxLength value="20" />
+            </xs:restriction>
+          </ids:value>
+        </ids:attribute>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Attributes13" identifier="Attributes" description="Attributes are here part of Requirements" instructions="Attributes in filter part of Requirements">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:attribute>
+          <ids:name>
+            <ids:simpleValue>GlobalId</ids:simpleValue>
+          </ids:name>
+        </ids:attribute>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Attributes14" identifier="Attributes" description="Attributes are here part of Requirements" instructions="Attributes in filter part of Requirements">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:classification>
+          <ids:system>
+            <ids:simpleValue>Uniclass2015</ids:simpleValue>
+          </ids:system>
+        </ids:classification>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:attribute cardinality="required">
+          <ids:name>
+            <ids:simpleValue>LongName</ids:simpleValue>
+          </ids:name>
+        </ids:attribute>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Attributes15" identifier="Attributes" description="Attributes are here part of Requirements" instructions="Attributes in filter part of Requirements">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:attribute>
+          <ids:name>
+            <ids:simpleValue>ZLength</ids:simpleValue>
+          </ids:name>
+        </ids:attribute>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Attributes16" identifier="Attributes" description="Attributes are here part of Requirements" instructions="Attributes in filter part of Requirements">
+      <ids:applicability minOccurs="0" maxOccurs="unbounded">
+        <ids:attribute>
+          <ids:name>
+            <ids:simpleValue>ZDim</ids:simpleValue>
+          </ids:name>
+        </ids:attribute>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Attributes17" identifier="Attributes" description="Attributes are here part of Requirements" instructions="Attributes in filter part of Requirements">
+      <ids:applicability minOccurs="0" maxOccurs="0">
+        <ids:attribute>
+          <ids:name>
+            <ids:simpleValue>YLength</ids:simpleValue>
+          </ids:name>
+        </ids:attribute>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Attributes18" identifier="Attributes" description="Attributes are here part of Requirements" instructions="Attributes in filter part of Requirements">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:attribute>
+          <ids:name>
+            <ids:simpleValue>YDim</ids:simpleValue>
+          </ids:name>
+        </ids:attribute>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Attributes19" identifier="Attributes" description="Attributes are here part of Requirements" instructions="Attributes in filter part of Requirements">
+      <ids:applicability minOccurs="0" maxOccurs="0">
+        <ids:attribute>
+          <ids:name>
+            <ids:simpleValue>XLength</ids:simpleValue>
+          </ids:name>
+        </ids:attribute>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Attributes20" identifier="Attributes" description="Attributes are here part of Requirements" instructions="Attributes in filter part of Requirements">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:attribute>
+          <ids:name>
+            <ids:simpleValue>XDim</ids:simpleValue>
+          </ids:name>
+        </ids:attribute>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Attributes21" identifier="Attributes" description="Attributes are here part of Requirements" instructions="Attributes in filter part of Requirements">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:attribute>
+          <ids:name>
+            <ids:simpleValue>WWWHomePageURL</ids:simpleValue>
+          </ids:name>
+        </ids:attribute>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Attributes22" identifier="Attributes" description="Attributes are here part of Requirements" instructions="Attributes in filter part of Requirements">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:attribute>
+          <ids:name>
+            <ids:simpleValue>WorldCoordinateSystem</ids:simpleValue>
+          </ids:name>
+        </ids:attribute>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Attributes23" identifier="Attributes" description="Attributes are here part of Requirements" instructions="Attributes in filter part of Requirements">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:attribute>
+          <ids:name>
+            <ids:simpleValue>WorkMethod</ids:simpleValue>
+          </ids:name>
+        </ids:attribute>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Attributes24" identifier="Attributes" description="Attributes are here part of Requirements" instructions="Attributes in filter part of Requirements">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:attribute>
+          <ids:name>
+            <ids:simpleValue>WordSpacing</ids:simpleValue>
+          </ids:name>
+        </ids:attribute>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Attributes25" identifier="Attributes" description="Attributes are here part of Requirements" instructions="Attributes in filter part of Requirements">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:attribute>
+          <ids:name>
+            <ids:simpleValue>WellKnownText</ids:simpleValue>
+          </ids:name>
+        </ids:attribute>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Attributes26" identifier="Attributes" description="Attributes are here part of Requirements" instructions="Attributes in filter part of Requirements">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:attribute>
+          <ids:name>
+            <ids:simpleValue>WeightsData</ids:simpleValue>
+          </ids:name>
+        </ids:attribute>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Attributes27" identifier="Attributes" description="Attributes are here part of Requirements" instructions="Attributes in filter part of Requirements">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:attribute>
+          <ids:name>
+            <ids:simpleValue>WebSlope</ids:simpleValue>
+          </ids:name>
+        </ids:attribute>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Attributes28" identifier="Attributes" description="Attributes are here part of Requirements" instructions="Attributes in filter part of Requirements">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:attribute>
+          <ids:name>
+            <ids:simpleValue>WarpingStiffness</ids:simpleValue>
+          </ids:name>
+        </ids:attribute>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Attributes29" identifier="Attributes" description="Attributes are here part of Requirements" instructions="Attributes in filter part of Requirements">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:attribute>
+          <ids:name>
+            <ids:simpleValue>WarpingMoment</ids:simpleValue>
+          </ids:name>
+        </ids:attribute>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Attributes30" identifier="Attributes" description="Attributes are here part of Requirements" instructions="Attributes in filter part of Requirements">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:attribute>
+          <ids:name>
+            <ids:simpleValue>Vsense</ids:simpleValue>
+          </ids:name>
+        </ids:attribute>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+  </ids:specifications>
+</ids:ids>

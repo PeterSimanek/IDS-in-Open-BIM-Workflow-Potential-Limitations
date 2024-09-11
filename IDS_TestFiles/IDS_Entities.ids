@@ -1,0 +1,486 @@
+<ids:ids xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.buildingsmart.org/IDS http://standards.buildingsmart.org/IDS/1.0/ids.xsd" xmlns:ids="http://standards.buildingsmart.org/IDS">
+  <!--edited with usBIM.IDSeditor 2.2.8.0 (http://www.accasoftware.com)-->
+  <ids:info>
+    <ids:title>Ifc Class and enumerations</ids:title>
+    <ids:copyright>Petr Simanek</ids:copyright>
+    <ids:version>Version 1.0</ids:version>
+    <ids:description>This is description</ids:description>
+    <ids:author>peter.simanek.bim@gmail.com</ids:author>
+    <ids:date>2024-08-23</ids:date>
+    <ids:purpose>Testing</ids:purpose>
+    <ids:milestone>Proof of Concept</ids:milestone>
+  </ids:info>
+  <ids:specifications>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Entities1" identifier="entities andenumerations" description="entities and predefined types (enumerations) present in Filter and not Requirements">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCPROJECT</ids:simpleValue>
+          </ids:name>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Entities2" identifier="entities andenumerations" description="entities and predefined types (enumerations) present in Filter and not Requirements">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCSITE</ids:simpleValue>
+          </ids:name>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Entities3" identifier="entities andenumerations" description="entities and predefined types (enumerations) present in Filter and not Requirements">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCBUILDINGSTOREY</ids:simpleValue>
+          </ids:name>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Entities4" identifier="entities andenumerations" description="entities and predefined types (enumerations) present in Filter and not Requirements">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCWALL</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>MOVABLE</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Entities5" identifier="entities andenumerations" description="entities and predefined types (enumerations) present in Filter and not Requirements">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCWINDOW</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>USERDEFINED</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Entities6" identifier="entities andenumerations" description="entities and predefined types (enumerations) present in Filter and not Requirements">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCDOOR</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>GATE</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Entities7" identifier="entities andenumerations" description="entities and predefined types (enumerations) present in Filter and not Requirements">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCCOLUMN</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>NOTDEFINED</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Entities8" identifier="entities andenumerations" description="entities and predefined types (enumerations) present in Filter and not Requirements">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCBEAM</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>T_BEAM</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Entities9" identifier="entities andenumerations" description="entities and predefined types (enumerations) present in Filter and not Requirements">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCROOF</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>BUTTERFLY_ROOF</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="Entities10" identifier="entities andenumerations" description="entities and predefined types (enumerations) present in Filter and not Requirements">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCSTAIR</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>NOTDEFINED</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="TypeEntities1&#xA;" identifier="entities andenumerations" description="entities and predefined types (enumerations) present in Filter and not Requirements. Also can end with Type">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCBOILERTYPE</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>STEAM</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="TypeEntities2&#xA;" identifier="entities andenumerations" description="entities and predefined types (enumerations) present in Filter and not Requirements Also can end with Type">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCPIPEFITTINGTYPE</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>JUNCTION</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="TypeEntities3" identifier="entities andenumerations" description="entities and predefined types (enumerations) present in Filter and not Requirements Also can end with Type">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCPIPEFITTINGTYPE</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>TRANSITION</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="TypeEntities4" identifier="entities andenumerations" description="entities and predefined types (enumerations) present in Filter and not Requirements Also can end with Type">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCPIPEFITTINGTYPE</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>TRANSITION</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="TypeEntities5" identifier="entities andenumerations" description="entities and predefined types (enumerations) present in Filter and not Requirements Also can end with Type">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCDISTRIBUTIONELEMENTTYPE</ids:simpleValue>
+          </ids:name>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="TypeEntities6" identifier="entities andenumerations" description="entities and predefined types (enumerations) present in Filter and not Requirements Also can end with Type">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCCABLEFITTINGTYPE</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>CONNECTOR</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="TypeEntities7" identifier="entities andenumerations" description="entities and predefined types (enumerations) present in Filter and not Requirements Also can end with Type">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCELECTRICTIMECONTROLTYPE</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>RELAY</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="TypeEntities8" identifier="entities andenumerations" description="entities and predefined types (enumerations) present in Filter and not Requirements Also can end with Type">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCHUMIDIFIERTYPE</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>ASSISTEDPROPANE</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="TypeEntities9" identifier="entities andenumerations" description="entities and predefined types (enumerations) present in Filter and not Requirements Also can end with Type">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCACTUATORTYPE</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>HANDOPERATEDACTUATOR</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="TypeEntities10" identifier="entities andenumerations" description="entities and predefined types (enumerations) present in Filter and not Requirements Also can end with Type">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCCONTROLLERTYPE</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>TWOPOSITION</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements />
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="ComplexEntities1&#xA;" identifier="entities and enumeration" description="focus on the Entities and enumerations, in this sections they are part of requirements and not just filter">
+      <ids:applicability minOccurs="0" maxOccurs="0">
+        <ids:material>
+          <ids:value>
+            <ids:simpleValue>Concrete</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:entity>
+          <ids:name>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="IFCCOLUMN" />
+              <xs:enumeration value="IFCBEAM" />
+              <xs:enumeration value="IFCWALL" />
+              <xs:enumeration value="IFCCAISSONFOUNDATION" />
+              <xs:enumeration value="IFCSLAB" />
+              <xs:enumeration value="IFCPILE" />
+            </xs:restriction>
+          </ids:name>
+        </ids:entity>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="ComplexEntities2&#xA;" identifier="entities and enumeration" description="focus on the Entities and enumerations, in this sections they are part of requirements and not just filter">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:attribute>
+          <ids:name>
+            <ids:simpleValue>LongName</ids:simpleValue>
+          </ids:name>
+        </ids:attribute>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:entity>
+          <ids:name>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="IFCBOILER" />
+              <xs:enumeration value="IFCPIPEFITTING" />
+              <xs:enumeration value="IFCPIPESEGMENT" />
+              <xs:enumeration value="IFCCOIL" />
+              <xs:enumeration value="IFCCABLECARRIERFITTING" />
+              <xs:enumeration value="IFCCABLESEGMENT" />
+              <xs:enumeration value="IFCENGINE" />
+              <xs:enumeration value="IFCCOOLINGTOWER" />
+              <xs:enumeration value="IFCEVAPORATIVECOOLER" />
+              <xs:enumeration value="IFCAIRTERMINAL" />
+              <xs:enumeration value="IFCELECTRICALELEMENT" />
+              <xs:enumeration value="IFCELECTRICAPPLIANCE" />
+            </xs:restriction>
+          </ids:name>
+        </ids:entity>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="ComplexEntities3&#xA;" identifier="entities and enumeration" description="focus on the Entities and enumerations, in this sections they are part of requirements and not just filter">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:property>
+          <ids:propertySet>
+            <ids:simpleValue>MyNewPset</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>Custom Name</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:entity>
+          <ids:name>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="IFCWATERPROPERTIES" />
+              <xs:enumeration value="IFCAPPROVALPROPERTYRELATIONSHIP" />
+              <xs:enumeration value="IFCASYMMETRICISHAPEPROFILEDEF" />
+              <xs:enumeration value="IFCAPPROVALACTORRELATIONSHIP" />
+              <xs:enumeration value="IFCALIGNMENT2DHORIZONTAL" />
+              <xs:enumeration value="IFCCLOSEDSHELL" />
+              <xs:enumeration value="IFCINDEXEDPOLYGONALFACEWITHVOIDS" />
+            </xs:restriction>
+          </ids:name>
+        </ids:entity>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="ComplexEntities4&#xA;" identifier="entities and enumeration" description="focus on the Entities and enumerations, in this sections they are part of requirements and not just filter">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:classification>
+          <ids:value>
+            <ids:simpleValue>Pr_60_60_08 Boilers</ids:simpleValue>
+          </ids:value>
+          <ids:system>
+            <ids:simpleValue>Uniclass2015</ids:simpleValue>
+          </ids:system>
+        </ids:classification>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCBOILER</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>WATER</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="ComplexEntities5&#xA;" identifier="entities and enumeration" description="focus on the Entities and enumerations, in this sections they are part of requirements and not just filter">
+      <ids:applicability minOccurs="0" maxOccurs="0">
+        <ids:material>
+          <ids:value>
+            <ids:simpleValue>Asbestos</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCROOF</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>FLAT_ROOF</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="ComplexEntities6&#xA;" identifier="entities and enumeration" description="focus on the Entities and enumerations, in this sections they are part of requirements and not just filter">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:attribute>
+          <ids:name>
+            <ids:simpleValue>Elevation</ids:simpleValue>
+          </ids:name>
+        </ids:attribute>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:entity>
+          <ids:name>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="IFCLIGHTDISTRIBUTIONDATA" />
+              <xs:enumeration value="IFCLIGHTFIXTURETYPE" />
+              <xs:enumeration value="IFCLIGHTSOURCEAMBIENT" />
+              <xs:enumeration value="IFCLIGHTSOURCEGONIOMETRIC" />
+              <xs:enumeration value="IFCRAMPFLIGHT" />
+            </xs:restriction>
+          </ids:name>
+        </ids:entity>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="ComplexEntities7&#xA;" identifier="entities and enumeration" description="focus on the Entities and enumerations, in this sections they are part of requirements and not just filter">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:material>
+          <ids:value>
+            <ids:simpleValue>Quicksilver</ids:simpleValue>
+          </ids:value>
+        </ids:material>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCTANK</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>FEEDANDEXPANSION</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="ComplexEntities8" identifier="entities and enumeration" description="focus on the Entities and enumerations, in this sections they are part of requirements and not just filter">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:classification>
+          <ids:value>
+            <ids:simpleValue>D40 Fire Protection</ids:simpleValue>
+          </ids:value>
+          <ids:system>
+            <ids:simpleValue>UniClass</ids:simpleValue>
+          </ids:system>
+        </ids:classification>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCFIRESUPPRESSIONTERMINAL</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>FIREMONITOR</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="ComplexEntities9&#xA;" identifier="entities and enumeration" description="focus on the Entities and enumerations, in this sections they are part of requirements and not just filter">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:partOf relation="IFCRELCONTAINEDINSPATIALSTRUCTURE">
+          <ids:entity>
+            <ids:name>
+              <ids:simpleValue>IFCBUILDINGSTOREY</ids:simpleValue>
+            </ids:name>
+          </ids:entity>
+        </ids:partOf>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCFURNITURE</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>SHELF</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2" name="ComplexEntities10&#xA;" identifier="entities and enumeration" description="focus on the Entities and enumerations, in this sections they are part of requirements and not just filter">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:attribute>
+          <ids:name>
+            <ids:simpleValue>NominalBarDiameter</ids:simpleValue>
+          </ids:name>
+        </ids:attribute>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCREINFORCINGBAR</ids:simpleValue>
+          </ids:name>
+          <ids:predefinedType>
+            <ids:simpleValue>SPACEBAR</ids:simpleValue>
+          </ids:predefinedType>
+        </ids:entity>
+      </ids:requirements>
+    </ids:specification>
+  </ids:specifications>
+</ids:ids>
